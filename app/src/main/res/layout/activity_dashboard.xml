@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/epilepsy_foundation_dashboard"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/dashboardContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/epilepsy_foundation_dashboard"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/_16sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="3"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+
+            <!-- Row 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_75sdp"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <!-- Assessment -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btnAssesment"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_6sdp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_12sdp"
+                    app:cardElevation="@dimen/_6sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_12sdp">
+
+                        <ImageView
+                            android:id="@+id/img_assessment"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:contentDescription="Assessment"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/assessment_" />
+
+                        <TextView
+                            android:id="@+id/txt_assessment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/header_title_assessment"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="8sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Reminder -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btnReminder"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_6sdp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_12sdp"
+                    app:cardElevation="@dimen/_6sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_12sdp">
+
+                        <ImageView
+                            android:id="@+id/img_reminder"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:contentDescription="@string/title_reminder"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/reminder_" />
+
+                        <TextView
+                            android:id="@+id/txt_reminder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/title_reminder"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="8sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Info -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btnInfo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_6sdp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_12sdp"
+                    app:cardElevation="@dimen/_6sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_12sdp">
+
+                        <ImageView
+                            android:id="@+id/img_info"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:contentDescription="@string/title_dashboard_information"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/info_" />
+
+                        <TextView
+                            android:id="@+id/txt_info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/title_dashboard_information"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="8sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!-- Row 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <!-- epDetector -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btnEpdetector"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_6sdp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_12sdp"
+                    app:cardElevation="@dimen/_6sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_12sdp">
+
+                        <ImageView
+                            android:id="@+id/img_epdetector"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:contentDescription=""
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/epdetector_" />
+
+                        <TextView
+                            android:id="@+id/txt_epdetector"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/title_dashboard_detector"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="8sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Questionnaire -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btnQuestionnaire"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_6sdp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_12sdp"
+                    app:cardElevation="@dimen/_6sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_12sdp">
+
+                        <ImageView
+                            android:id="@+id/img_questionnaire"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:contentDescription="title_dashboard_questionair"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/questionnaire_" />
+
+                        <TextView
+                            android:id="@+id/txt_questionnaire"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/title_dashboard_questionair"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="8sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Setting -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btnSetting"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_6sdp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_12sdp"
+                    app:cardElevation="@dimen/_6sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_12sdp">
+
+                        <ImageView
+                            android:id="@+id/img_setting"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:contentDescription="@string/header_title_settings"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/setting_" />
+
+                        <TextView
+                            android:id="@+id/txt_setting"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/settings"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="8sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!-- Row 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <!-- History -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btnDairy"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_6sdp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_12sdp"
+                    app:cardElevation="@dimen/_6sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_12sdp">
+
+                        <ImageView
+                            android:id="@+id/img_Dairy"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:contentDescription="Assessment"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/history_" />
+
+                        <TextView
+                            android:id="@+id/txt_dairy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/title_history"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="8sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Empty placeholders to fill row -->
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/loginbtn_boarder"
+            android:drawableStart="@drawable/bell"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="@dimen/_14ssp"
+            android:paddingHorizontal="@dimen/_8sdp"
+            android:paddingVertical="@dimen/_4sdp"
+            android:text="@string/tile_message" />
+
+        <TextView
+            android:id="@+id/versionName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_12ssp"
+            android:paddingHorizontal="@dimen/_5sdp"
+            android:paddingVertical="@dimen/_6sdp"
+            android:text="Version" />
+
+    </LinearLayout>
+</ScrollView>

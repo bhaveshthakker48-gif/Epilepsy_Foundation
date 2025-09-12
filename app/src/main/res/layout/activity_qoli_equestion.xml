@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_bg"
+    tools:context=".activity.assessment.AssessmentActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16ssp"
+        android:padding="@dimen/_10sdp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Qolie_title"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingBottom="@dimen/_8sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_32sdp">
+
+        <TextView
+            android:id="@+id/Qolie_textQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your question here"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:textSize="@dimen/_14ssp"
+            android:layout_marginBottom="@dimen/_12sdp" />
+
+        <RadioGroup
+            android:id="@+id/Qolie_radioGroupoptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/Qolie_radioptn1"
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Option 1" />
+
+            <RadioButton
+                android:id="@+id/Qolie_radioptn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Option 2" />
+
+            <RadioButton
+                android:id="@+id/Qolie_radioptn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Option 3" />
+
+            <RadioButton
+                android:id="@+id/Qolie_radioptn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Option 4" />
+
+            <RadioButton
+                android:id="@+id/Qolie_radioptn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Option 5" />
+
+            <RadioButton
+                android:id="@+id/Qolie_radioptn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Option 6" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp">
+
+            <Button
+                android:id="@+id/btnPrevQolie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/button_pre"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:paddingVertical="@dimen/_2sdp"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/nextBtnQolie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="@string/button_next"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:paddingVertical="@dimen/_2sdp"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/privacyDialogLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/webViewPrivacy"
+        android:layout_width="match_parent"
+        android:layout_marginTop="-60dp"
+        android:layout_marginBottom="-60dp"
+        android:layout_height="700dp" />
+
+    <CheckBox
+        android:padding="@dimen/_2sdp"
+        android:id="@+id/checkboxAccept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I agree to the privacy policy"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="20dp"
+            android:text="Cancel"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_button_red" />
+
+        <TextView
+            android:id="@+id/btnAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="20dp"
+            android:text="Accept"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_button_blue" />
+    </LinearLayout>
+</LinearLayout>

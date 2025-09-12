@@ -1,0 +1,754 @@
+<resources>
+    <string name="app_name">Epilepsy Foundation</string>
+    <string name="app_names" translatable="false">Epilepsy Foundation</string>
+    <string name="first_name">First Name  <font color='#FF0000'>*</font></string>
+    <string name="last_name">Last Name  <font color='#FF0000'>*</font></string>
+    <string name="dob">Date of Birth  <font color='#FF0000'>*</font></string>
+    <string name="gender">Gender  <font color='#FF0000'>*</font></string>
+    <string name="mobile_no">Mobile Number  <font color='#FF0000'>*</font></string>
+    <string name="first_names">First Name</string>
+    <string name="last_names">Last Name</string>
+    <string name="dobs">Date of Birth</string>
+    <string name="genders">Gender</string>
+    <string name="mobile_nos">Mobile Number</string>
+    <string name="settings">Setting</string>
+
+    <string name="email">Email (Optional)</string>
+    <string name="already_member">If already a registered member</string>
+    <string name="submit">Submit</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">Hindi</string>
+    <string name="language_marathi">Marathi</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Other</string>
+    <string name="gender_select">Select Gender</string>
+    <string name="is_required">is required</string>
+    <string name="invalid_mobile_number">Please enter a valid mobile number</string>
+    <string name="invalid_email">Please enter a valid email address</string>
+    <string name="successful">successful</string>
+    <string name="view_result">View Result</string>
+    <string name="assessment_form">Assessment Form</string>
+    <string name="Qoliftitle">QOLIE-10-P</string>
+    <string name="Stigmatitle">Epilepsy Stigma Scale</string>
+    <string name="whodastitle">WHODAS 2.0</string>
+    <string name="Qolie_instruction">Instructions</string>
+    <string name="Qolie_instruction_data">The QOLIE-10-P is a brief survey of health-related quality of life for adults with epilepsy. [Adolescents (ages 11-17 years) should complete the QOLIE-AD-48, designed for that age group.] There are 10 questions about health and daily activities, one question about how much distress you feel about problems and worries related to epilepsy, and a review of what bothers you most. This questionnaire should be completed only by the person who has epilepsy (not a relative or friend) because no one else knows how YOU feel.\nThese questions are about how you have been FEELING and the types of problems you have been having during the past 4 weeks</string>
+    <string name="start_assessment">Start</string>
+    <string name="stigma_intro"> The Parent Stigma Scale was developed by Austin with a 10 items scale that can access the degree to which a person belives that epilepsy is perceived as negative and interferes with relationships with others. Each item is rated on 7-point scale from 1. Stongly disagree to 7. strongly agree.</string>
+    <string name="Stigma_title_statment">Please tell me how much you agree or disagree with each of the following 10 statements.</string>
+    <string name="stigma_optn1">STRONGLY DISAGREE</string>
+    <string name="stigma_optn2">MODERATELY DISAGREE</string>
+    <string name="stigma_optn3">SLIGHTLY DISAGREE</string>
+    <string name="stigma_optn4">NEITHER DISAGREE NOR AGREE</string>
+    <string name="stigma_optn5">SLIGHTLY AGREE</string>
+    <string name="stigma_optn6">MODERATELY AGREE</string>
+    <string name="stigma_optn7">STRONGLY AGREE</string>
+
+    <string name="whodas" translatable="false">WORLD HEALTH ORGANIZATION DISABILITY ASSESSMENT SCHEDULE 2.0</string>
+    <string name="whodas_version" translatable="false">12-item version, self-administered</string>
+    <string name="whodas_instruction" translatable="false">This questionnaire ask about difficulties due to health conditions. Think back over the past 30 days and answer these questions,
+        thinking about how much difficulty you had doing the following activities.</string>
+    <string name="lbl_understanding_epi">Understanding Epilepsy</string>
+    <string name="lbl_epi_medication">Epilepsy Medication</string>
+    <string name="lbl_emergency_mgmt">Emergency Management</string>
+    <string name="lbl_title">Information</string>
+    <string name="title_awareness_video">Awareness Video</string>
+
+    <!--    Information understabding epilepsy-->
+
+    <string name="txt_epi_info1">
+<![CDATA[
+			<b>Types and description</b><br/>
+    		Epilepsy is a brain disorder in which clusters of nerve cells, or neurons, in the brain sometimes signal abnormally. Depending on the distribution of discharges, this abnormal CNS activity can have various manifestations, ranging from dramatic convulsive activity to observed phenomena not readily visible by an observer. Epilepsy describes a condition in which a person has recurrent seizures due to a chronic, underlying process. The prevalence of epilepsy has been estimated at 5–10 persons per 1000.<br/>
+ 			Classification of Epilepsy is based on International Classification of Epilepsy which is as follows:<br/><br/>
+ 			<b>CLASSIFICATION OF SEIZURES</b><br/>
+ 			1. Partial seizures<br/>
+ 			a. Simple partial seizures (with motor, sensory, autonomic, or psychic signs)<br/>
+ 			b. Complex partial seizures<br/>
+ 			c. Partial seizures with secondary generalization<br/><br/>
+
+ 			2. Primarily generalized seizures<br/>
+ 			a. Absence (petit mal)<br/>
+			b. Tonic-clonic (grand mal)<br/>
+			c. Tonic<br/>
+			d. Atonic<br/>
+			e. Myoclonic<br/><br/>
+
+			3. Unclassified seizures<br/>
+			a. Neonatal seizures<br/>
+			b. Infantile spasms<br/><br/>
+
+			<b>1. PARTIAL SEIZURES</b><br/>
+			Partial seizures occur  just one part of the brain. About 60 percent of people with epilepsy have partial seizures. <br/><br/>
+			<b>A. SIMPLE PARTIAL SEIZURE :</b><br/>
+			If consciousness is fully preserved during the seizure, the clinical manifestations are considered relatively simple. This causes motor, sensory, autonomic, or psychic symptoms without an obvious alteration in consciousness.<br/>
+			eg : A patient with a partial motor seizure coming from the right primary motor cortex that controls hand movement will note the onset of involuntary movements of the contralateral, left hand. These movements are typically clonic or re tonic<br/>
+			Simple partial seizures are defined as the partial seizure that are not associated with any alteration of consciousness. Although the ability to respond may be preserved, motor manifestations or anxiety relating to the seizure symptoms may prevent a patient from responding appropriately.<br/>
+			SPS may be characterized by motor, sensory, psychic, or autonomic symptoms. Motor or sensory SPS are caused by ictal discharges in the somatotopically representative gyri of the contralateral hemisphere, or by ictal discharges that spread to the sensorimotor cortex from the parietal, occipital, or temporal lobes.<br/><br/>
+			Following symptoms are seen:<br/>
+			* Jerking, muscle rigidity, spasms, head-turning<br/>
+			* Unusual sensations affecting either the vision, hearing, smell taste, or touch<br/>
+			* Memory or emotional disturbances<br/><br/>
+			Auras without subsequent seizures should be considered a type of SPS.<br/>
+			Interestingly, the areas of the cortex with the lowest threshold for electrical stimulation are those that correspond to the body segments most commonly observed to be the regions responsible for motor or sensory SPS. Penfield and Jasper identified the perioral area, thumb, index finger, and great toe as the areas that usually are affected first in partial seizures. These are all anatomical parts having a disproportionately large area of representation in the cortical homunculus.<br/>
+			Psychic SPS are characterized by complex cognitive or affective symptoms, such as déjà vu. They more commonly arise in temporal rather than extratemporal regions. Electrical stimulation experiments have demonstrated that similar psychic manifestations can be elicited from noncontiguous locations. This suggests that this type of SPS may have a more diffuse rather than a discrete localization.<br/>
+			The origin of autonomic SPS is hypothesized to be hypothalamus. The clinical manifestations are determined by the pattern of activation of the central autonomic network and the higher-order autonomic control areas of the insula and prefrontal cortices<br/>
+			The suspicion of SPS is based on a history consistent with the typical, reproducible patterns seen with the various SPS categories. An electroencephalogram (EEG) fortuitously obtained during the patients symptoms can provide clear support for a diagnosis. EEGs obtained soon after a suspected seizure often record nonspecific patterns or may be normal.<br/>
+			In most patients with SPS, antiepileptic drug therapy is appropriate. Selected patients with SPS refractory to AEDs may be candidates for surgical treatment <br/><br/>
+
+			<b>B. COMPLEX PARTIAL SEIZURE :</b><br/>
+			Complex partial seizures last 1 to 2 minutes. These seizures may have an aura (or warning). Complex Partial Seizures include automatisms (such as lip smacking, picking at clothes, fumbling), unaware of surroundings or may wander.<br/>
+			If consciousness is impaired, the symptomatology is more complex.<br/>
+			eg : In the above example,   Since the cortical region controlling hand movement is immediately adjacent to the region for facial expression, the seizure may also cause abnormal movements of
+			the face synchronous with the movements of the hand<br/><br/>
+			The following may also occur:<br/>
+			* Oral automatisms (involuntary chewing or lip smacking)<br/>
+			* Limb automatisms (eg, automatic purposeless movements of the hands)<br/>
+			* Utterance of unintelligible sounds without understanding what they say<br/>
+			* Resistance to assistance<br/>
+			* Tonic or dystonic posturing of the extremity contralateral to the seizure focus<br/>
+			* Head and eye deviation, usually in a direction contralateral to the seizure focus<br/>
+			* Bicycling or pedaling movements of the legs if the seizure emanates from the medial frontal or orbitofrontal head regions<br/><br/>
+
+			<b>Aura</b><br/>
+			An aura is a subjective sensation and is a simple partial seizure (i.e, the initial part during which the patient is aware).<br/>
+			Typically, it is of brief duration, rarely lasting longer than seconds. Determining the type of aura present is critical for identifying the site of cortical onset.<br/>
+			Eight different varieties are recognized: somatosensory, visual, auditory, gustatory, olfactory, autonomic, abdominal, and psychic.<br/>
+			* Typically of brief duration, rarely lasting longer than seconds<br/>
+			* Eight different varieties are recognized: somatosensory, visual, auditory, gustatory, olfactory, autonomic, abdominal, and psychic<br/>
+			* Auras precede temporal lobe seizures in approximately 80 Percent of cases; the most common are abdominal (a rising epigastric sensation) and psychic (fear, déjà vu, jamais vu)<br/>
+			* Parietal lobe seizures may begin with a contralateral sensation, usually of the positive type (electrical sensation, tingling)<br/>
+			* Occipital lobe seizures may begin with contralateral visual changes, usually of the positive type (eg, colored lines, spots, or shapes) or a loss of vision<br/>
+			* Temporal-parietal-occipital seizures may produce more formed auras<br/>
+			* Impaired consciousness<br/>
+			* Usually, during a complex partial seizure, the patient is unresponsive and does not remember events that occurred<br/>
+			* Although patients typically do not respond to external stimuli, they may make simple verbal responses; follow simple commands; or continue to perform simple or, less commonly, complex motor behaviors (eg, operating a car)<br/><br/>
+			Automatisms these are nonpurposeful, stereotyped, and repetitive behaviors that commonly accompany complex partial seizures (in the semiologic classification, they define automotor seizures).<br/>
+			The behavior is inappropriate for the situation.<br/>
+			* Verbal automatisms range from simple vocalizations, such as moaning, to more complex, comprehensible, stereotyped speech<br/>
+			* Oral eg, lip smacking, chewing, swallowing)<br/>
+			* Manual eg, picking, fumbling, patting<br/>
+			* Unilateral manual automatisms accompanied by contralateral arm dystonia usually indicates seizure onset from the cerebral hemisphere ipsilateral to the manual automatisms<br/>
+			* Automatisms can also be more elaborate, coordinated movements involving bilateral extremities (eg, cycling movements of the legs, stereotyped swimming movements)<br/>
+			* Bizarre automatisms (eg, alternating limb movements, right-to-left head rolling, sexual automatisms) may occur with frontal lobe seizures<br/>
+			Seizure features by site of origin<br/>
+			* Temporal lobe seizures often begin with a motionless stare followed by oral or manual automatisms<br/>
+			* Frontal lobe seizures often begin with vigorous motor automatisms or stereotyped clonic or tonic activity<br/>
+			* Extratemporal lobe seizures may spread quickly to the frontal lobe and produce motor behaviors similar to those associated with complex partial seizures of the frontal lobe<br/>
+			In temporal lobe seizures, lateralizing signs with corresponding sensitivities include the following:<br/>
+			* Contralateral - Unilateral sensory aura (89 Percent), hemifield visual/sensory aura (100 Percent), motor version (100 Percent), clonic activity (83 Percent), tonic activity (100 Percent); figure 4 sign (89 Percent); unilateral dystonic posturing (100 Percent); postictal palsy (93 Percent)<br/>
+			* Ipsilateral - Postictal nose wiping (92 Percent)<br/>
+			* Nondominant lobe - Ictal spitting (75 Percent), ictal vomiting (81 Percent), ictal speech (83 Percent)<br/>
+			* Dominant lobe - Ictal aphasia/dysphasia (100 Percent)<br/><br/>
+
+			<b>Diagnosis</b><br/>
+			Laboratory studies aim to rule out potential causes or, more often, triggers for seizures. Routine workup for all patients should include EEG and MRI of the brain; most of the time, the results will be normal. A patient with seizures that are difficult to control should be reassessed for a possible alternative diagnosis or temporal lobe epilepsy, using prolonged EEG-video monitoring to record patient events. Lumbar puncture may be indicated for a patient with new-onset seizure when an acute inflammatory or infectious process is being considered, but it is not indicated in patients with chronic epilepsy.<br/>
+			Laboratory studies : <br/>
+			* Electrolyte levels<br/>
+			* Concentrations of antiepileptic drugs, if being used<br/>
+			* Consider a urine drug screen<br/><br/>
+
+			<b>Brain MRI</b><br/>
+			Used to exclude an obvious structural lesion as the cause. Should include contrast with gadolinium to allow assessment of possible neoplastic and vascular etiologies<br/>
+			MRI with temporal cuts measures hippocampal volumes in assessment for temporal lobe epilepsy. Increased signal on fluid-attenuation inversion recovery (FLAIR) T2-weighted MRI can detect sclerosis of the mesial temporal lobe in 80-90 Percent of cases<br/>
+			Electroencephalography<br/>
+			EEG within 24 hours is more sensitive for diagnosing epileptiform abnormalities than later EEG is (51 Percent sensitivity vs 34 Percent), but it is often impractical<br/>
+			Epileptiform discharges, when present, help localize the seizure focus<br/>
+			A negative interictal EEG does not exclude a diagnosis of epilepsy<br/>
+			If the waking EEG is negative, a sleep-deprived EEG may demonstrate epileptiform abnormalities<br/><br/>
+
+			<b>C. PARTIAL SEIZURES WITH SECONDARY GENERALIZATION : </b><br/>
+			These are seizures that begin as partial seizures and then spread diffusely throughout the cortex<br/>
+
+			EEG findings :<br/>
+			EEG recorded with scalp electrodes during the seizure (i.e., an ictal EEG) may show abnormal discharges in a very limited region over the appropriate area of cerebral cortex if the seizure focus involves the cerebral convexity.<br/><br/>
+
+			<b>2. GENERALIZES SEIZURES</b><br/>
+			Generalized seizures are a result of abnormal neuronal activity on both sides of the brain. The abnormal signal spreads so fast that the origin cannot be located. They do not have an identifiable onset.These seizures may cause loss of consciousness, falls, or massive muscle spasms.<br/>
+			They are of following types:<br/><br/>
+			<b>A. PETIT MAL (ABSENCE SEIZURE) : </b><br/>
+			They are frequently seen.  The patient appears to stare continuously without any movement. He doesn’t recollect anything what happened during this period. It can occure several times in a day. They return back to normal within few minutes.<br/>
+			These are usually less than 15 seconds, and have symptoms that may be barely noticeable. However, loss of consciousness, even for such a short time, can make absence seizure dangerous.<br/>
+			Petit mal seizures most commonly affect children ages 5 to 9, although they can occur in adults as well. Children with epilepsy may experience both petit mal and grand mal seizures, which are larger-scale seizures.<br/>
+			Following signs may be seen :<br/>
+			1. staring off into space<br/>
+			2. smacking the lips together<br/>
+			3. fluttering eyelids<br/>
+			4. stopping speech mid-sentence<br/>
+			5. making sudden hand movements<br/>
+			6. leaning forward or backward<br/>
+			A child’s teacher is often the first to notice absence epilepsy symptoms. The child appears temporarily “absent” from his or her body—hence the term absence epilepsy.<br/>
+			You can tell if a person is experiencing an absence seizure, as opposed to some other type of episode that resembles an absence seizure, because an absence seizure cannot be interrupted with touch or sound. Large-scale seizures may begin with an aura or warning sensation. However, petit mal seizures typically occur suddenly and with no warning. This makes taking precautions to protect the patient important.<br/><br/>
+            	]]>
+    </string>
+
+    <string name="info3">
+        <![CDATA[
+
+			<b>Cause :</b><br/>
+			During a petit mal seizure, your brain’s electrical signals repeat themselves. This pattern typically lasts about three seconds each cycle. A person who has absence seizures may also have altered levels of neurotransmitters, the chemical messengers that help cells communicate.<br/>
+			Researchers have not identified a specific cause for absence epilepsy. Hyperventilation or flashing lights may trigger a petit mal seizure in others. For some patients, physicians may never detect a distinct cause.<br/><br/>
+			<b>Complications :</b><br/>
+			Petit mal seizures usually take 15 seconds before the person returns to normal behavior. They do not have any memory of the past few moments or the seizure itself.  They may present with learning difficulties.<br/>
+			As long as a person has not been injured during the seizure, a full recovery can be made almost immediately. Falls do not typically happen during the seizure. <br/>
+			Children with absence epilepsy often progress to longer seizure episodes or larger seizure types.<br/><br/>
+			<b>Prognosis :</b><br/>
+			With regular treatment, an estimated 80 percent of absence epilepsy patients go into remission. Many children outgrow absence epilepsy in their teens. Absence seizures can usually be controlled with anti-seizure medication, and this will help to avoid any social or academic difficulties.<br/><br/>
+
+			<b>B. TONIC-CLONIC (GRAND MAL) SEIZURES :</b><br/>
+			In this the patient experiences both tonic and clonic seizures.  This is mostly accompanied by aura, frothing in mouth, tongue bite or loss of consciousness.<br/><br/>
+
+			<b>C. TONIC SEIZURES :</b><br/>
+			The patient has stiffness of muscles which tightens the muscle so much that the back arches. The chest muscle tightens causing difficult to breathe and the eyes roll backand jaws are locked.  The lips and face my change to bluish hue and the patient make gargling noises.<br/>
+			Generalized tonic-clonic (grand mal) seizures can be recognize recognized easily.<br/>
+			It occurs most often in people with generalized epilepsy of unknown cause. An entire seizure lasts 1 to 2 minutes.It begins with a sudden loss of consciousness.<br/>
+			In the Tonic phase:<br/>
+			During the first 15 to 30 seconds of the seizure, the entire body stiffens as the muscles contract.<br/>
+			The back and neck are arched.<br/>
+			Sometimes the person may cry out as the vocal cords contract.<br/>
+			The person may turn blue because of breathlessness.<br/>
+			In the Clonic Phase:<br/>
+			During the next 30 to 45 seconds, the muscles jerk in a rhythmic pattern.<br/>
+			The person may bite his or her tongue or there is incontinence of urine or stool.<br/>
+			Post ictal phase:<br/>
+			After the seizure, the person will be unresponsive  for 10 to 30 minutes.<br/>
+			The person at will gradually wake up in<br/>
+			The person may be sleepy, confused, or dazed.<br/>
+			The person may also feel tired, weak, or moody and may have a headache and muscle aches for the next 24 hours.<br/><br/>
+			Pathophysiology<br/>
+			It could be initiated by 3 different mechanisms:<br/>
+			* Abnormal response of hyperexcitable cortex to initially normal thalamic input<br/>
+			* Primary subcortical trigger<br/>
+			* Abnormal cortical innervation from subcortical structures<br/><br/>
+			Physiologically, a seizure results from a paroxysmal high-voltage electrical discharge of susceptible neurons within an epileptogenic focus. These neurons are known to be hyperexcitable and, for unknown reasons, remain in a state of partial depolarization.<br/>
+			The neurons surrounding the epileptogenic focus are GABA-ergic (ie, they release gamma-aminobutyric acid) and hyperpolarized, and they inhibit the epileptogenic neurons. At times, when the epileptogenic neurons overcome the surrounding inhibitory influence, the seizure discharge spreads to neighboring cortical structures and then to subcortical and brainstem structures.<br/>
+			Various animal models of generalized epilepsy implicate brainstem structures in the pathogenesis of generalized seizures.<br/><br/>
+			These brainstem structures include the following:<br/>
+			* A lateral geniculate body, which produces a generalized tonic-clonic seizure when kindled in the cat<br/>
+			* Ascending pathways through the mamillary bodies and anterior thalamus<br/>
+			* The substantia nigra, including a nigrotectal GABA-ergic projection and locus ceruleus<br/>
+			The spread of excitability to subcortical, thalamic, brainstem, and spinal cord structures corresponds with the tonic phase of the seizure. Following this, an inhibitory impulse starts from the thalamus and interrupts the tonic phase into discontinuous bursts of electrical activity, known as the clonic phase.<br/><br/>
+			<b>Etiology</b><br/>
+			Most generalized epilepsies are idiopathic. However, a definite genetic locus has been found for some of these generalized types of epilepsy.<br/>
+			Benign familial neonatal convulsion is an autosomal dominant condition with high penetrance, resulting from mutations in a voltage-gated potassium channel gene, named KCNQ2, in chromosome 20. This gene is homologous to a gene (ie, KCNQ1) expressed in the heart, mutations of which are responsible for one form of the long QT syndrome. A channelopathy in the sodium channel b1 subunit (SCN1B) is associated with generalized epilepsy with febrile convulsions.<br/>
+			Unverricht-Lundborg disease, a progressive myoclonic epilepsy, is an autosomal recessive inherited disorder linked to chromosome arm 21q. The specific gene was identified recently as cystatin B, an intracellular protease inhibitor. For most of the other syndromes considered idiopathic generalized epilepsies, more than one gene is thought to be responsible.<br/><br/>
+			<b>Epidemiology</b><br/>
+			The age-adjusted incidence of epilepsy (ie, recurrent unprovoked seizures) ranges from 24-53 per 100,000 population per year. Approximately 20-25 Percent of cases are classified as generalized seizures. The age-adjusted prevalence of epilepsy ranges from 4-8 per 1000 people.<br/>
+			Developing countries have similar incidences of epilepsy, ranging from 14-57 cases per 1000 population, based on World Health Organization statistics. Internationally, as in the United States, partial seizures are the most common, but generalized tonic-clonic seizures still make up a significant percentage of seizures (20-25 Percent).<br/>
+			Generalized convulsive seizures are uncommon in infants and rare in neonates. In elderly patients, generalized tonic-clonic seizures are usually due to secondary generalization of seizures emanating from localized brain lesions.<br/><br/>
+			<b>Prognosis</b><br/>
+			The morbidity for tonic-clonic seizure can be high because these patients experience no aura and thus the seizure strikes without warning; minor injuries are frequent. Patients can have posterior shoulder dislocations and broken bones.<br/><br/>
+			Potential complications of generalized tonic-clonic seizures include the following:<br/>
+			* Head trauma and trauma to the tongue, lips, and cheeks<br/>
+			* Vertebral compression fractures<br/>
+			* Aspiration pneumonia<br/>
+			* Neurogenic pulmonary edema<br/>
+			* Cardiac arrhythmias<br/>
+			* Sudden death<br/>
+			Mortality rates for seizures are low, but, amongst the epilepsies, rates for tonic-clonic seizures are higher. The incidence of sudden death is 24 times higher in persons with epilepsy than in the general population. Some of the risk factors for sudden death in epilepsy (SUDEP) include high seizure frequency (specifically tonic-clonic type), younger age, mental retardation, and polytherapy.<br/><br/>
+
+			<b>D. ATONIC SEIZURES :</b><br/>
+			The patient experience a brief period of loss of muscle tone. The patient suddenly falls or drops down without any warning or aura. This lasts for few seconds. The patient recovers back quickly<br/><br/>
+
+			<b>E. MYOCLONIC SEIZURES :</b><br/>
+			In this there is increase in muscle tone. There is a reaction as if the patient is hit by a jolt of electricity. These mostly seen during sleep.  The patient gets up with a sudden jerk and increase of muscle tone. Infantile spasm is a serious myoclonic seizure.<br/>
+			A myoclonic seizure is a sudden, brief, shock-like muscle contraction. Myoclonic seizures can be generalized or partial. They appear most often during the first year of life. They are up to 10 Percent of all form of epilepsy.<br/>
+			A child having a myoclonic seizure will have one or many brief muscle jerks, often in the shoulders or arms, either in the whole body or just in one arm or leg. Unlike clonic seizures, the jerks are not rhythmic. Sometimes myoclonic seizures are not strong enough to cause visible movement, but the child feels a shock-like feeling in his muscles.<br/>
+			In some syndromes, such as juvenile myoclonic epilepsy, myoclonic seizures happen in the morning just after the child has woken up. Objects such as toothbrushes or mugs may fly out of the child’s hands. The child and his parents may assume that he is just sleepy or clumsy.<br/><br/>
+			* How many other children have myoclonic seizures?<br/>
+			Up to 10 percent of children with epilepsy have myoclonic seizures.<br/>
+			* What causes myoclonic seizures?<br/>
+			Myoclonic seizures are seen in many different epilepsy syndromes, including benign myoclonic epilepsy of infancy, juvenile absence epilepsy, juvenile myoclonic epilepsy, Lennox-Gastaut syndrome, and the progressive myoclonus epilepsies. For this reason, it is often difficult for a doctor to tell exactly what syndrome a child has. To make the diagnosis, the doctor will look at the location of the seizures, whether they are symmetrical, the child’s EEG pattern, and any factors that trigger the seizures.<br/>
+			* How are myoclonic seizures treated?<br/>
+			Anti-epileptic drugs are used to treat myoclonic seizures. Which one is chosen usually depends on the specific epilepsy syndrome. Vagus nerve stimulation (VNS) treatment or the ketogenic diet may also be used.<br/>
+			* What should I do when my child has a myoclonic seizure?<br/>
+			There is no specific intervention for a myoclonic seizure. If seizures occur in prolonged clusters, your doctor may prescribe a medication to help stop the clusters. Continuous myoclonic seizures may require urgent treatment.<br/><br/>
+
+			<b>3. UNCLASSIFIED SEIZURES</b><br/>
+			<b>A. NEONATAL SEIZURES :</b><br/> These are epileptic fits occurring from birth to the end of the neonatal period (28 days of life). The neonatal period is the most vulnerable of all periods of life for developing seizures, particularly in the first 1–2 days to the first week from birth. They may be short-lived events lasting for a few days only. These seizures are tonic or clonic or myoclonic or even generalized. There can be horizontal deviation of the eyes with or without jerking, eyelid blinking or fluttering, sucking, smacking or other oral–buccal–lingual movements, swimming or pedalling movements and, occasionally, apnoeic spells. They can also be tonic extension of the limbs, mimicking decerebrate or decorticate posturing. These occur particularly in premature infants.<br/><br/>
+			<b>B. INFANTILE SPASMS :</b><br/> These spasms have sudden flexion and adduction of the arms and forward flexion of the trunk. It lasts a few seconds and recur many times a day. They occur only in the first 5 year of life, then are replaced by other types of seizures. They usually are present with developmental defects.<br/>
+		]]>
+    </string>
+
+    <!--    Medication-->
+    <string name="txt_epi_medication">
+<![CDATA[
+		<b>Drug :- carbamazepine (Tegretol)</b><br/>
+		<b>Mechanism of action</b> :- Block voltage –dependent sodium channels at high firing frequencies<br/>
+		<b>Indication</b> :- All type of seizures<br/>
+		<b>Dose</b> :- 400 mg/day Increase by 200 mg/day Max 1000 mg/day<br/><br/>
+
+		<b>Drug :- clonazepam (Klonopin)</b><br/>
+		<b>Mechanism of action</b> :- Increase frequency of GABA mediated chloride channel opeings<br/>
+		<b>Indication</b> :- Petit mal /myoclonic<br/>
+		<b>Dose</b> :- 1.5 mg/day Increase  0.5 to 1 mg every 3 days Max 20 mg/day<br/><br/>
+
+		<b>Drug :- ethosuximide (Zarontin)</b><br/>
+		<b>Mechanism of action</b> :- Block low threshold , transient t-type calcium channels in thalamic neurons<br/>
+		<b>Indication</b> :- Petit-mal<br/>
+		<b>Dose</b> :- 2500 mg/day Increase by 250 mg/day<br/><br/>
+
+		<b>Drug :- felbamate (Felbatol)</b><br/>
+		<b>Mechanism of action</b> :- Block voltage –dependent sodium channels at high firing frequencies or modulate NMDA receptor via strychnine insensitive glycine receptor
+		<br/>
+		<b>Indication</b> :- Unresponsive to other treatment for epilepsy<br/>
+		<b>Dose</b> :- 400 mg/day Increase by 200 mg/day Max 1000 mg/day<br/><br/>
+
+		<b>Drug :- gabapentin (Neurontin)</b><br/>
+		<b>Mechanism of action</b> :- Modulate amino acid transport into brain or interfere with GABA re-uptake
+		<br/>
+		<b>Indication</b> :- Partial seizures<br/>
+		<b>Dose</b> :- 300 mg tid. Max 3600 mg/day<br/><br/>
+
+		<b>Drug :- lamotrigine (Lamictal)</b><br/>
+		<b>Mechanism of action</b> :- Block voltage –dependent sodium channels at high firing frequencies or interfere with pathologic glutamate release<br/>
+		<b>Indication</b> :- General tonic clonic seizure adjuvant<br/>
+		<b>Dose</b> :- 25 mg/day Increase by 25 mg/day Max 400 to 600 mg/day<br/><br/>
+
+		<b>Drug :- levetiracetam (Keppra)</b><br/>
+		<b>Mechanism of action</b> :- Possibly linkage current inhibitor of kindling or has specific binding site to synaptic membranes<br/>
+		<b>Indication</b> :- Adjuvant to partial /generalized /myoclonic seizures<br/>
+		<b>Dose</b> :- 1000 mg/ day Increase by 1000mg/day Max 3000 mg/day<br/><br/>
+
+		<b>Drug :- oxcarbazepine (Trileptal)</b><br/>
+		<b>Mechanism of action</b> :- Block voltage –dependent sodium channels at high firing frequencies or exerts effect on K+channels<br/>
+		<b>Indication</b> :- Partial seizure<br/>
+		<b>Dose</b> :- 600 mg/day Increase by 600 mg/day Max 2400 mg/day<br/><br/>
+
+		<b>Drug :- phenobarbital</b><br/>
+		<b>Mechanism of action</b> :- Prolongs GABA mediated chloride channel openings or some blockade of voltage dependent sodium channels<br/>
+		<b>Indication</b> :- Generalised Tonic clonic<br/>
+		<b>Dose</b> :- 100 mg tid/bid<br/><br/>
+
+		<b>Drug :- phenytoin (Dilantin)</b><br/>
+		<b>Mechanism of action</b> :- Block voltage –dependent sodium channels at high firing frequencies<br/>
+		<b>Indication</b> :- Generalised Tonic clonic or status epilepticus<br/>
+		<b>Dose</b> :- 1- 3 mg/kg/min or 50 mg per minute in emergency or 300 mg/day<br/><br/>
+
+		<b>Drug :- tiagabine (Gabatril)</b><br/>
+		<b>Mechanism of action</b> :- Interferes with GABA re-uptake<br/>
+		<b>Indication</b> :- Adjuvant for partial seizure<br/>
+		<b>Dose</b> :- 4 mg/day Increase by 4 mg/week Max 56 mg/day<br/><br/>
+
+		<b>Drug :- topiramate (Topamax)</b><br/>
+		<b>Mechanism of action</b> :- Block voltage –dependent sodium channels at high firing frequencies or increases frequency at which GABA opens CL-channels different site than benzodiazepines. Or antagonizes glutamate action at AMPA/kainite receptor subtype
+ 		OR inhibition  of carbonic anhydrase<br/>
+		<b>Indication</b> :- Generalised Tonic clonic<br/>
+		<b>Dose</b> :- 50 mg/day Increase by 50 mg weekly Max 400 mg/day<br/><br/>
+
+		<b>Drug :- valproate/divalproex sodium (Depakote)</b><br/>
+		<b>Mechanism of action</b> :- May enhance GABA transmission in specific circuits or blocks voltage dependant sodium channels<br/>
+		<b>Indication</b> :- Complex partial seizure<br/>
+		<b>Dose</b> :- 10 to 15 mg/kg/day Max 60  mg/kg/da<br/><br/>
+
+		<b>Drug :- zonisamide (Zonegran)</b><br/>
+		<b>Mechanism of action</b> :- Blocks voltage dependant sodium channels and t-type calcium channels<br/>
+		<b>Indication</b> :- Partial seizure<br/>
+		<b>Dose</b> :- 25 to 100 mg/day Max 300 mg/day<br/><br/>
+		]]>
+    </string>
+
+    <!--    emergency management -->
+    <string name="txt_epi_mgmt">
+<![CDATA[
+		Person with epilepsy seizure becomes stiff, loses consciousness and falls to the ground. They may take few minutes to hours to regain back to normalcy. Following steps can help before getting any medical help<br/><br/>
+		<b>DO&apos;S : </b><br/><br/>
+		* Keep Calm. Lower the Patient gently to the ground.</br>
+		* Loosen the clothes and remove spectacles.<br/>
+		* Remove all sharp objects lying near the patient.<br/>
+		* Support the head with a folded towel or pillow to prevent injury.<br/>
+		* Tilt the head to one side so that saliva, dentures or vomit can come out of the mouth and prevent choking.<br/>
+		* Let the patient rest, as the attack can make them tired.<br/><br/>
+
+		<b>DON&apos;TS : </b><br/>
+		* Do not allow a crowd to collect near the patient. Open all windows for good ventilation.<br/>
+		* Do not restrain the movements of the patient.<br/>
+		* Do not put anything in the mouth during a seizure.<br/>
+		* Do not try to feed the patient till consciousness is regained.<br/><br/>
+		]]>
+    </string>
+
+    <string name="title_question_set">Question Set</string>
+    <string name="lbl_confirm_epilepsy">This is a phone based screening tool
+        to enable non-doctors to diagnose a
+        person as epileptic or not. Please
+        enter the demographic details, and
+        answer the following questions to be
+        able to reach a diagnosis. \n\n
+        Reference : For Age group 2-9 years Neurodevelopmental Disabilities Among Children in India:
+        An INCLEN Study (October 2011) \n\n</string>
+    <!-- Reference : For Age group above 9 years \n V. Patterson et al./Seizure 30(2015) 46-49</string>-->
+    <string name="button_go">Check</string>
+    <string name="lbl_view_result">View Result</string>
+    <string name="title_reminder">Reminder</string>
+
+    <!-- Medication Reminders -->
+
+    <string name="title_medication">Medication</string>
+    <string name="lbl_medication_start_date">Start Date</string>
+    <string name="lbl_medication_start_time">Start Time</string>
+    <string name="end_date">End Date</string>
+    <string name="end_time">End Time</string>
+    <string name="header_time">Time</string>
+    <string name="img_calendar_desc">Calendar to select the date</string>
+    <string name="lbl_medication_name">Medication Name</string>
+    <string name="lbl_title_duration">Duration</string>
+    <string name="lbl_frequency">Frequency</string>
+    <string name="lbl_dose">Dose</string>
+    <string name="btn_set">Set</string>
+    <string name="medication_name_req_err_msg">Please enter Medication Name</string>
+    <string name="medication_startDate_req_err_msg">Please enter the Start Date</string>
+    <string name="medication_endDate_req_err_msg">Please enter the End Date</string>
+    <string name="medication_duration_unit_req_err_msg">Please select Duration Unit</string>
+    <string name="dose_req_err_msg">Please select Dose</string>
+    <string name="time_invalid_err_msg">Please select proper time.</string>
+    <string name="time_of_exam_req_alert_msg">Please enter the Time of Examination</string>
+    <string name="end_time_req_alert_msg">Please enter the End time</string>
+    <string name="medication_frequency_unit_req_err_msg">Please select frequency</string>
+
+    <string name="noti_medi_reminder">Medication Reminder</string>
+    <string name="medi_reminder_set">Reminder is set for your medicine.</string>
+    <string name="noti_visit_reminder">Next Visit Reminder</string>
+    <string name="visit_reminder_set">Reminder is set for next visit.</string>
+    <string name="noti_path_reminder">Pathology Test Reminder</string>
+    <string name="path_reminder_set">Reminder is set for pathology test.</string>
+    <string name="noti_radi_reminder">Radiology Test Reminder</string>
+    <string name="rad_reminder_set">Reminder is set for radiology test.</string>
+    <string name="alarm_set">Data Added Successfully. Alarm set</string>
+
+    <!-- Next Visit To Doctor Reminders -->
+
+    <string name="title_next_visit">Next Visit to Doctor</string>
+    <string name="doctor_name">Doctor Name</string>
+    <string name="lbl_event_date">Visit Date</string>
+    <string name="lbl_event_time">Visit Time</string>
+    <string name="header_reminder">Reminder</string>
+    <string name="lbl_reminder_date">Reminder Date</string>
+    <string name="lbl_reminder_time">Reminder Time</string>
+    <string name="date_of_remider_event_req_err_msg">Please enter Date of Event</string>
+    <string name="time_of_remider_event_req_err_msg">Please enter Time of Event</string>
+    <string name="doctor_name_req_err_msg">Please enter doctor name</string>
+    <string name="date_of_reminder_req_err_msg">Please enter Reminder Date</string>
+    <string name="time_of_reminder_req_err_msg">Please enter Reminder Time</string>
+    <string name="lbl_yes_reminder">Yes</string>
+    <string name="delete">Delete</string>
+
+    <!-- Pathology Test Remiders -->
+
+    <string name="title_pathology_test">Pathology Tests</string>
+    <string name="path_test_name">Test Name</string>
+    <string name="lbl_path_event_date">Visit Date</string>
+    <string name="lbl_path_event_time">Visit Time</string>
+    <string name="path_testlab_name">Lab Name</string>
+    <string name="lbl_path_reminder_date">Reminder Date</string>
+    <string name="lbl_path_reminder_time">Reminder Time</string>
+    <string name="date_of_path_remider_event_req_err_msg">Please enter Date of Event</string>
+    <string name="time_of_path_remider_event_req_err_msg">Please enter Time of Event</string>
+    <string name="path_test_name_req_err_msg">Please enter test name</string>
+    <string name="date_of_path_reminder_req_err_msg">Please enter Reminder Date</string>
+    <string name="time_of_path_reminder_req_err_msg">Please enter Reminder Time</string>
+
+    <!-- Radiology Test remiders -->
+
+    <string name="title_radiology_test">Radiology Tests</string>
+    <string name="rad_test_name">Test Name</string>
+    <string name="lbl_rad_event_date">Visit Date</string>
+    <string name="lbl_rad_event_time">Visit Time</string>
+    <string name="rad_testlab_name">Lab Name</string>
+    <string name="lbl_rad_reminder_date">Reminder Date</string>
+    <string name="lbl_rad_reminder_time">Reminder Time</string>
+    <string name="date_of_rad_remider_event_req_err_msg">Please enter Date of Event</string>
+    <string name="time_of_rad_remider_event_req_err_msg">Please enter Time of Event</string>
+    <string name="rad_test_name_req_err_msg">Please enter test name</string>
+    <string name="date_of_rad_reminder_req_err_msg">Please enter Reminder Date</string>
+    <string name="time_of_rad_reminder_req_err_msg">Please enter Reminder Time</string>
+    <string name="btn_add">Add</string>
+
+    <string name="days">Day(s)</string>
+    <string name="weeks">Week(s)</string>
+    <string name="months">Month(s)</string>
+    <string name="years">Year(s)</string>
+    <string name="select_unit">Select Unit</string>
+
+    <string name="one">Once a day</string>
+    <string name="two">Twice a day</string>
+    <string name="three">Thrice a day</string>
+    <string name="four">Four times a day</string>
+    <string name="select_frequency">Select Frequency</string>
+
+    <string name="toast_medication_name_empty">Please enter medication name</string>
+    <string name="toast_start_date_empty">Please select start date</string>
+    <string name="toast_start_time_empty">Please select start time</string>
+    <string name="toast_duration_empty">Please enter duration</string>
+    <string name="toast_duration_unit_empty">Please select duration unit</string>
+    <string name="toast_frequency_empty">Please select frequency</string>
+    <string name="toast_dose_empty">Please enter dose</string>
+    <string name="toast_reminder_saved">Reminder saved successfully!</string>
+
+    <string name="toast_doctor_name_empty">Please enter doctor name</string>
+    <string name="toast_visit_date_empty">Please enter doctor visit date</string>
+    <string name="toast_visit_time_empty">Please enter doctor visit time</string>
+    <string name="toast_enable_reminder_checkbox">Please enable reminder checkbox</string>
+
+    <string name="toast_pathology_test_name_empty">Please enter pathology test name</string>
+    <string name="toast_pathology_date_empty">Please enter pathology visit date</string>
+    <string name="toast_pathology_time_empty">Please enter pathology visit time</string>
+    <string name="toast_pathology_lab_name_empty">Please enter pathology lab name</string>
+    <string name="toast_pathology_reminder_date_empty">Please enter pathology reminder date</string>
+    <string name="toast_pathology_reminder_time_empty">Please enter pathology reminder time</string>
+
+    <string name="toast_radiology_test_name_empty">Please enter radiology test name</string>
+    <string name="toast_radiology_date_empty">Please enter radiology visit date</string>
+    <string name="toast_radiology_time_empty">Please enter radiology visit time</string>
+    <string name="toast_radiology_lab_name_empty">Please enter radiology lab name</string>
+    <string name="toast_radiology_reminder_date_empty">Please enter radiology reminder date</string>
+    <string name="toast_radiology_reminder_time_empty">Please enter radiology reminder time</string>
+
+    <string name="data_not_available_msg">Data Not Available</string>
+
+    <string name="button_pre">Previous</string>
+    <string name="button_next">Next</string>
+    <string name="button_submit">Submit</string>
+    <string name="Qolie_title">Patient Weighted Quality Of Life In Epilepsy \n QOLIE-10-P</string>
+
+    <!--    qolie answer -->
+    <string name="Qolie_option1">All of the time</string>
+    <string name="Qolie_option2">Most of the time</string>
+    <string name="Qolie_option3">A good bit of the time</string>
+    <string name="Qolie_option4">Some of the time</string>
+    <string name="Qolie_option5">A little of the time</string>
+    <string name="Qolie_option6">None of the  time</string>
+
+    <string name="Qolie_option3_1">A great deal</string>
+    <string name="Qolie_option3_2">A lot</string>
+    <string name="Qolie_option3_3">SomeWhat</string>
+    <string name="Qolie_option3_4">Only a little</string>
+    <string name="Qolie_option3_5">Not at all</string>
+
+    <string name="Qolie_option4_1">Not at all bothersome</string>
+    <string name="Qolie_option4_5">Extremely bothersome</string>
+
+
+    <string name="Qolie_option9_1">Very Afraid</string>
+    <string name="Qolie_option9_2">Somewhat Afraid</string>
+    <string name="Qolie_option9_3">Not very Afraid</string>
+    <string name="Qolie_option9_4">Not Afraid at all</string>
+
+    <string name="Qolie_option10_1">Very good: could hardly have been better</string>
+    <string name="Qolie_option10_2">Pretty good </string>
+    <string name="Qolie_option10_3">Good and bad about equal </string>
+    <string name="Qolie_option10_4">Pretty bad </string>
+    <string name="Qolie_option10_5">Very bad: could hardly have been worse </string>
+
+
+    <string name="Qolie_option11_1">Not at all</string>
+    <string name="Qolie_option11_2">SomeWhat</string>
+    <string name="Qolie_option11_3">Moderately</string>
+    <string name="Qolie_option11_4">A lot</string>
+    <string name="Qolie_option11_5">Very much</string>
+
+    <string name="Qolie_qustn12">12)  Number the following topics from ‘1’ to ‘7’ with ‘1’ corresponding to the most important topic and ‘7’ to the least important one. Please use each number only once.</string>
+
+    <string name="Qolie_ansA">A. Energy (tiredness)</string>
+    <string name="Qolie_ansB">B. Emotions (mood)</string>
+    <string name="Qolie_ansC">C. Daily activities (work, driving, social AND other activities)</string>
+    <string name="Qolie_ansD">D. Mental function (thinking, concentrating, memory)</string>
+    <string name="Qolie_ansE">E. Medication effects (physical, mental)</string>
+    <string name="Qolie_ansF">F. Worry about seizures (impact of seizures)</string>
+    <string name="Qolie_ansG">G. Overall quality of life</string>
+
+    <string name="form_submit_success">Your form submitted successfully</string>
+    <string name="form_submit_failed">Failed to save form.</string>
+    <string name="rank_required">All fields must be filled with unique ranks (1–7).</string>
+    <string name="rank_invalid">Please enter valid ranks from 1 to 7 only.</string>
+    <string name="rank_duplicate">Ranks must be unique. Duplicate found: %1$s</string>
+
+    <string name="toast_select_answer_continue">Please select an answer to continue</string>
+    <string name="toast_select_answer_submit">Please select an answer before submitting</string>
+
+
+    <string name="option1" translatable="false">None</string>
+    <string name="option2" translatable="false">Mild</string>
+    <string name="option3" translatable="false">Moderate</string>
+    <string name="option4" translatable="false">Severe</string>
+    <string name="option5" translatable="false">Extreme or cannot do</string>
+
+    <string name="h1" translatable="false">H1)  Overall , in the past 30 days, how many days were these difficulties present ?</string>
+    <string name="h2" translatable="false">H2)  In the past 30 days, for how many days were you totally unable to carry out your unsual activities or work because of any health condition ? </string>
+    <string name="h3" translatable="false">H3)  In the past 30 days, not counting the days that you were totally unable, for how many days did you cut back or reduce your usual activities or work because of any health condition ? </string>
+
+    <string name="h1_optn" translatable="false">Record number of days....</string>
+    <string name="high_score_warning">Score cannot be greater than or equal to 30</string>
+
+    <string name="assessment_result">Assessment Result</string>
+    <string name="no_data">No data available</string>
+    <string name="date_label">Date</string>
+    <string name="score_label">Score</string>
+
+    <string name="fill_all_fields">Please fill all fields correctly</string>
+    <string name="age_validation">Only users between 2 and 9 years are allowed</string>
+
+    <string name="lbl_cause">Please mention cause</string>
+
+    <string name="option_one">One</string>
+    <string name="option_more_than_one">More than one</string>
+    <string name="option_less_than_24">Less than 24 hours</string>
+    <string name="option_more_than_24">More than 24 hours</string>
+    <string name="option_not_applicable">Not applicable</string>
+    <string name="lbl_radio_yes">Yes</string>
+    <string name="lbl_radio_no">No</string>
+    <string name="result_label">Result</string>
+    <string name="label_age">Age</string>
+    <string name="delete_confirmation_title">Delete Reminder</string>
+    <string name="delete_confirmation_message">Are you sure you want to delete this reminder?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="edit_reminder">Edit Reminder</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="header_title_settings">Settings</string>
+    <string name="header_title_assessment">Assessment</string>
+    <string name="header_summary_settings">A handful of values for you to tailor</string>
+    <string name="pref_syncFrequency">Sync Frequency</string>
+    <string name="pref_syncFrequency_summary">Sets the Sync Frequency</string>
+    <string name="pref_sync_data">Sync Data</string>
+    <string name="pref_sync_data_summary">Starts Data Sync Process</string>
+    <string name="pref_sync_success_msg">Sync process completed successfully</string>
+    <string name="pref_sync_fail_msg">Sync process completed with errors</string>
+    <string name="sync_failed_msg">Sync failed</string>
+    <string name="sync_failed">Sync process failed ! Click to Sync Manually</string>
+    <string name="pref_sync_started_msg">Sync process started</string>
+    <string name="pref_start_sync">Start Sync</string>
+    <string name="pref_dialog_title">Alert</string>
+    <string name="pref_dialog_start_sync_desc">This will start the Sync Process</string>
+    <string name="pref_change_lang_summary">Change the Language</string>
+    <string name="about_us">About Us</string>
+    <string name="change_lang">Change Language</string>
+    <string name="toast_reminder_future_required">Reminder time must be in the future.</string>
+    <string name="toast_visit_after_reminder_required">Visit time must be after reminder time.</string>
+    <string name="toast_invalid_datetime_format">Invalid date/time format.</string>
+
+    <string name="medication_channel_name">Medication Reminder</string>
+    <string name="medication_reminder_title">Time to take your medicine</string>
+    <string name="medication_reminder_message">Take %1$s at %2$s</string>
+    <string name="doctor_visit_channel_name">Doctor Visit Reminder</string>
+    <string name="doctor_visit_notification_title">Doctor Visit Reminder</string>
+    <string name="doctor_visit_notification_text">Upcoming visit with Dr. %1$s on %2$s at %3$s</string>
+    <string name="pathology_test_reminder_title">Pathology Test Reminder</string>
+    <string name="pathology_test_reminder_text">Your pathology test %1$s at %2$s on %3$s at %4$s</string>
+    <string name="pathology_test_reminder_text_short">Your pathology test %1$s</string>
+    <string name="radiology_test_reminder_title">Radiology Test Reminder</string>
+    <string name="radiology_test_reminder_text">Your radiology test %1$s at %2$s on %3$s at %4$s</string>
+    <string name="radiology_test_reminder_text_short">Your radiology test %1$s</string>
+
+    <!-- EPDetector -->
+
+    <string name="title_epdetector">EP Detector</string>
+    <string name="lbl_emergency_number1">Contact No.1</string>
+    <string name="lbl_emergency_number2">Contact No.2</string>
+    <string name="btn_contact_submit">Submit</string>
+    <string name="device_shaken">Device shaken!</string>
+    <string name="shake_detector_error">ERROR: Cannot create and start shake detector!</string>
+    <string name="lbl_activate">Click here to activate the detector.</string>
+    <string name="lbl_deactivate">Click here to deactivate the detector.</string>
+    <string name="lbl_detector_cancel">Click here to cancel the detector notification.</string>
+    <string name="sms_delivered_msg">SMS delivered</string>
+    <string name="sms_sent_msg">SMS sent</string>
+    <string name="generic_failure_msg">Insufficient Balance</string>
+    <string name="no_service_msg">Service Unavailable, Please check your Network</string>
+    <string name="null_pdu_msg">Null PDU</string>
+    <string name="radio_off_msg">Radio off</string>
+    <string name="sms_not_delivered_msg">SMS not delivered</string>
+    <string name="button_continue">Continue...</string>
+    <string name="lbl_continue_epDetector">It will detect a person\'s motion while
+        			the phone is in their pocket or worn on a belt.
+        			When a seizure is detected, a warning alarm is triggered for 30 secs.
+        			If the alarm has not been cancelled within 30 secs, an SMS will be sent
+        			to his or her emergency contact 15 secs after the alarm ends.
+					In case of a false alarm, the person will be able to cancel the it. \n\n
+        <!--<font color="#07FA07"><b>ACTIVATE :</b></font> Click button to start the seizure detection functionality. \n
+        <font color="#FF0000"><b>DEACTIVATE :</b></font> Click button to stop the seizure detection functionality. \n
+        <font color="#ffff"><b>CANCEL : </b></font>Click button to stop the false alarm.--></string>
+
+    <string name="active"><font color="#07FA07"><b>ACTIVATE :</b></font> Click button to start the seizure detection functionality.</string>
+
+    <string name="deactive"><font color="#FF0000"><b>DEACTIVATE :</b></font> Click button to stop the seizure detection functionality.</string>
+
+    <string name="cancle"><font color="#ffff"><b>CANCEL : </b></font>Click button to stop the false alarm.</string>
+
+
+    <string name="epi_help_msg">Please help..! I am having an Epileptic attack.</string>
+    <string name="sms_failed">SMS Failed, please try again later!</string>
+    <string name="sms_not_sent">Message not sent</string>
+    <string name="epi_noti">Epilepsy Notification</string>
+    <string name="epi_detect">Detecting epilepsy....</string>
+
+    <string name="error_contact1_invalid">Please enter a valid 10-digit Contact 1</string>
+    <string name="error_contact2_invalid">Please enter a valid 10-digit Contact 2</string>
+
+    <!-- Epilesy Details -->
+    <string name="title_epilepsy_details">Epilepsy Details</string>
+    <string name="lbl_skip">SKIP </string>
+    <string name="lbl_type_of_attact">Type of Attack :</string>
+    <string name="btn_select_attackType">Select Attack Types</string>
+    <string name="lbl_any_other_attack">Any other :</string>
+    <string name="enter_other_attack_hint">Enter other type</string>
+    <string name="lbl_duration_detail">Duration :</string>
+    <string name="hint_duration_detail">Duration</string>
+    <string name="lbl_frequency_detail">Frequency :</string>
+    <string name="lbl_detail_first_date_of_attack">Date of Attack :</string>
+    <string name="hint_detail_first_date_of_attack">Date</string>
+    <string name="lbl_date_of_last_attack">Date of Last Attack :</string>
+    <string name="hint_date_of_last_attack">Last Date</string>
+    <string name="btn_submit">Submit</string>
+    <string name="lbl_firstattack_details">Attack Details :</string>
+    <string name="lbl_lastattack_details">Last Attack Details :</string>
+    <string name="hint_details">Enter Details</string>
+    <string name="lbl_medical_condition">Past History :</string>
+    <string name="btn_select_medical">Select Past History</string>
+    <string name="error_attack_type">Please enter Type of Attack</string>
+    <string name="time_of_attack">Time Of Attack :</string>
+    <string name="label_min">min</string>
+    <string name="label_sec">sec</string>
+    <string name="msg_date_required">Please enter date of attack</string>
+    <string name="msg_time_required">Please enter time of attack</string>
+    <string name="msg_duration_required">Please enter duration</string>
+    <string name="error_max_minute">Minutes cannot be more than 60</string>
+    <string name="error_max_second">Seconds cannot be more than 60</string>
+
+    <string name="about_us_desc"><b>"Epilepsy Foundation India"</b> is a non-profitable charitable organization dedicated
+towards the welfare of the millions of people suffering with epilepsy in India
+and their families.\n\n
+				The Epilepsy Foundation app allows patients to store their epilepsy related medical history
+that can be quickly accessed during times of medical emergencies. The app works in online as well as in offline mode.</string>
+    <string name="copy_right_desc">COPYRIGHT &#169; 2025 EPILEPSY FOUNDATION OF INDIA</string>
+    <string name="epilepsy_version_name">Epilepsy Foundation App Version %1$s</string>
+
+    <string name="title_dashboard_information">Info</string>
+    <string name="title_dashboard_detector">EpDetector</string>
+    <string name="title_dashboard_questionair">Questionnaire</string>
+    <string name="exit_app_dialog_desc">Are you sure you want to exit?</string>
+    <string name="btn_lbl_exit_and_sync">Exit and Sync</string>
+    <string name="btn_lbl_exit">Exit</string>
+    <string name="lbl_no">No</string>
+    <string name="lbl_profile">Profile</string>
+
+    <!-- History -->
+    <string name="title_history">History</string>
+    <string name="tile_message">Messages</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tab_alerts">Alerts</string>
+    <string name="tab_reminder">Reminder</string>
+    <string name="diagnosis_epilepsy">Epilepsy</string>
+    <string name="diagnosis_no_epilepsy">No Epilepsy</string>
+    <string name="diagnosis_indeterminate">Indeterminate</string>
+    <string name="diagnosis_unknown">Unknown</string>
+    <string name="alert_message">ALERT: A potential seizure has been detected. Please check immediately.</string>
+
+
+</resources>

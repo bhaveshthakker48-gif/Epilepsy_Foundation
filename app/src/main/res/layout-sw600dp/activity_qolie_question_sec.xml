@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_bg"
+    tools:context=".activity.assessment.AssessmentActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16ssp"
+        android:justificationMode="inter_word"
+        android:padding="@dimen/_10sdp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Qolie_title"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingBottom="@dimen/_8sdp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_10sdp"
+            tools:context=".ui.QOLIEQstn12Activity">
+
+            <TextView
+                style="@style/whodas_Instruction_questiontext"
+                android:id="@+id/txtLastQ"
+                android:justificationMode="inter_word"
+                android:text="@string/Qolie_qustn12" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <!-- Repeated layout for each EditText + TextView pair -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edtoptionA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:maxLength="1"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/hint_text_color"
+                        android:inputType="number"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="@string/Qolie_ansA"
+                        style="@style/whodas_Instruction_questiontext" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edtoptionB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:maxLength="1"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/hint_text_color"
+                        android:inputType="number"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="@string/Qolie_ansB"
+                        style="@style/whodas_Instruction_questiontext" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edtoptionC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:maxLength="1"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/hint_text_color"
+                        android:inputType="number"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="@string/Qolie_ansC"
+                        android:layout_gravity="center"
+                        style="@style/whodas_Instruction_questiontext" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edtoptionD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:maxLength="1"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/hint_text_color"
+                        android:inputType="number"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_weight="2"
+                        android:layout_gravity="center"
+                        android:text="@string/Qolie_ansD"
+                        style="@style/whodas_Instruction_questiontext" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edtoptionE"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/hint_text_color"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_weight="2"
+                        android:layout_gravity="center"
+                        android:text="@string/Qolie_ansE"
+                        style="@style/whodas_Instruction_questiontext" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edtoptionF"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/hint_text_color"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_weight="2"
+                        android:layout_gravity="center"
+                        android:text="@string/Qolie_ansF"
+                        style="@style/whodas_Instruction_questiontext" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edtoptionG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:maxLength="1"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/hint_text_color"
+                        android:inputType="number"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="@string/Qolie_ansG"
+                        style="@style/whodas_Instruction_questiontext" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSubmitForm_qolie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_submit"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_button"
+                android:layout_margin="@dimen/_10sdp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

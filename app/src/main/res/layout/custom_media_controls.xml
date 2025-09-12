@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mediaControls"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#AA000000"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageButton
+        android:id="@+id/playPauseButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_play" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:progressDrawable="@drawable/custom_seekbar_progress"
+        android:thumb="@drawable/seekbar_thumb_white"
+        />
+
+
+    <ImageButton
+        android:id="@+id/zoomButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/zoom_out" />
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_bg"
+    android:layout_height="match_parent"
+    tools:context=".activity.assessment.AssessmentActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary" />
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/firstAssName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:textSize="@dimen/_16ssp"
+        android:textColor="@color/black"
+        android:text="QOLIE-10-P" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/light_blueNew" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/secondAssName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:textSize="@dimen/_16ssp"
+        android:textColor="@color/black"
+        android:text="Epilepsy Stigma Scale" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/light_blueNew" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/thirdAssName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:textSize="@dimen/_16ssp"
+        android:textColor="@color/black"
+        android:text="WHODAS 2.0" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/light_blueNew" />
+
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button"
+        android:text="@string/view_result" />
+</LinearLayout>

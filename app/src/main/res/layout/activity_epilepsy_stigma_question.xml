@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_bg"
+    tools:context=".activity.assessment.AssessmentActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_10sdp"
+        tools:context=".ui.StigmaScaleActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_3sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16ssp"
+                android:text="@string/Stigmatitle"
+                android:textStyle="bold" />
+
+            <!-- Instruction -->
+            <TextView
+                style="@style/whodas_Instruction_questiontext"
+                android:layout_margin="@dimen/_3sdp"
+                android:justificationMode="inter_word"
+                android:text="@string/Stigma_title_statment" />
+
+            <!-- Question Text -->
+            <TextView
+                android:id="@+id/textquestn_StigmaScale"
+                style="@style/whodas_Instruction_questiontext"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:textStyle="bold" />
+
+            <!-- Radio Buttons Group -->
+            <RadioGroup
+                android:id="@+id/radioGroupStigma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <RadioButton
+                    android:id="@+id/stigma_radioptn1"
+                    android:text="@string/stigma_optn1"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/stigma_radioptn2"
+                    android:text="@string/stigma_optn2"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/stigma_radioptn3"
+                    android:text="@string/stigma_optn3"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/stigma_radioptn4"
+                    android:text="@string/stigma_optn4"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/stigma_radioptn5"
+                    android:text="@string/stigma_optn5"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/stigma_radioptn6"
+                    android:text="@string/stigma_optn6"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/stigma_radioptn7"
+                    android:text="@string/stigma_optn7"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:paddingHorizontal="@dimen/_10sdp">
+
+                <Button
+                    android:id="@+id/btnPrevSigma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/button_pre"
+                    android:paddingHorizontal="@dimen/_10sdp"
+                    android:paddingVertical="@dimen/_2sdp"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/nextBtnSigma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:paddingHorizontal="@dimen/_10sdp"
+                    android:paddingVertical="@dimen/_2sdp"
+                    android:text="@string/button_next"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/Sigma_btnNextQ1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/button_submit"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="@color/white"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnSubmit_qoli"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:text="@string/button_submit"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

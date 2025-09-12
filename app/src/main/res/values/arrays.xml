@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="QOLE_questions">
+        <item name="1"> 1)   Did you have a lot of energy ? </item>
+        <item name="2"> 2)   Have you felt downhearted and low ? </item>
+        <item name="3"> 3)   How much of the time during the past 4 weeks your epilepsy or antiepileptic drugs have caused trouble with driving (or other transportation) ? </item>
+        <item name="4"> 4)   How much do your work limitations bother you ? </item>
+        <item name="5"> 5)   How much do your social limitations bother you ? </item>
+        <item name="6"> 6)   How much do your memory difficulties bother you ? </item>
+        <item name="7"> 7)   How much do physical effects of antiepileptic drugs bother you ? </item>
+        <item name="8"> 8)   How much do psychological effects of antiepileptic drugs bother you ? </item>
+        <item name="9"> 9)   How afraid are you of having a seizure during the next 4 weeks ? </item>
+        <item name="10"> 10)  How has your QUALITY OF LIFE been during the past 4 weeks (that is, how have things been going for you) ? </item>
+        <item name="11"> 11)  How much does the state of your epilepsy-related quality of life  distress you overall  ? </item>
+    </string-array>
+
+    <string-array name="stigma_questions">
+
+        <item name="1"> 1)   People who know that I have a seizure condition treat me differently. ?</item>
+        <item name="2"> 2)   It really doesn’t matter what I say to people about my seizure condition, they usually have their minds made up. ?</item>
+        <item name="3"> 3)   I always have to prove myself because of the seizure condition ?</item>
+        <item name="4"> 4)   Because of my seizure condition, I have problems developing intimate relationships ?</item>
+        <item name="5"> 5)   In many people’s minds, a seizure condition attaches a stigma or label to me ?</item>
+        <item name="6"> 6)   I feel different from other adults because of my seizure condition ?</item>
+        <item name="7"> 7)   I feel embarrassed about my seizure condition ?</item>
+        <item name="8"> 8)   I feel ashamed to tell others about my seizure condition ?</item>
+        <item name="9"> 9)   I feel others are un-comfortable with me because of my seizure condition ?</item>
+        <item name="10"> 10)   I feel others would prefer not to be with me because of my seizure condition ?</item>
+
+    </string-array>
+
+
+    <string-array name="who_questions">
+
+        <item name="1"> 1)   Standing for long periods such as 30 minutes ?</item>
+        <item name="2"> 2)   Taking care of your household responsibilities ?</item>
+        <item name="3"> 3)   Learning a new task, for example, learning how to get to a new place?</item>
+        <item name="4"> 4)   How much of a problem did you have joining in community activities (for example festivities,religious or other activities) in the same way as anyone else can ?</item>
+        <item name="5"> 5)   How much have you been emotionally affected by your health problems ?</item>
+        <item name="6"> 6)   Concentrating on doing something for ten minutes ?</item>
+        <item name="7"> 7)   Walking a long distance such as kilometre [or equivalent] ?</item>
+        <item name="8"> 8)   Washing your whole body ?</item>
+        <item name="9"> 9)   Getting dressed ?</item>
+        <item name="10"> 10)   Dealing with people you do not know ?</item>
+        <item name="11"> 11)   Maintaining a friendship ?</item>
+        <item name="12"> 12)   Your day-to-day work ?</item>
+
+    </string-array>
+
+    <string-array name="epilepsy_questionaries_2_9">
+        <item>Has your child ever had fits / dauae / mirgee / chamki?</item>
+        <item>Did your child ever have episodes of loss of consciousness associated with any of the following?</item>
+        <item>How many such episodes has the child had?</item>
+        <item>What was the duration between the first and last episode / seizure?</item>
+        <item>Did your child have these episodes always accompanied by fever? (only if seizure occurred when child was between 6 months - 6 years of age)</item>
+        <item>Did your child have these episodes only during brain infection (meningitis or encephalitis), head trauma, other infections (diarrhea / pneumonia), or other causes told by your doctor? If yes, please mention the cause if known.</item>
+        <item>Did your child have these episodes only during the 1st month of life?</item>
+        <item>Did your child have these episodes associated with change in colour or loss of consciousness in the settings of anger, pain, frustration, or prolonged crying?</item>
+        <item>Did your child have these episodes after prolonged standing?</item>
+        <item>Does your child have frequent episodes of "going blank" or losing awareness of surroundings?</item>
+        <item>Did your child ever have ANY of the following? Sudden and unexplained episodes of falling? Sudden head drop? Sudden jerking movement with bending of the body?</item>
+        <item>Is the child currently taking any anti-epileptic drug?</item>
+        <item>Has the child been diagnosed with any of the following? Cerebral Palsy, Development delay, Intellectual disability, Autism, ADHD, Learning disorder</item>
+    </string-array>
+
+    <string-array name="epilepsy_questionnaire_extended">
+        <item>Is there an eyewitness available, either in person or over phone?</item>
+        <item>Were there any predisposing factors like Severe head injury (unconsciousness of 24 hrs or more), Brain infection, Sleep deprivation, Heavy alcohol use, Illicit drug use?</item>
+        <item>Is there a colour change to RED or BLUE?</item>
+        <item>Is there STIFFNESS of hands or legs?</item>
+        <item>Is there SHAKING of hands or legs?</item>
+        <item>Is there TONGUE BITE?</item>
+        <item>Is there INCONTINENCE of urine or stool?</item>
+        <item>Does the head turn to RIGHT or LEFT?</item>
+        <item>Are the Eyes CLOSED?</item>
+        <item>Able to COMMUNICATE?</item>
+        <item>Is there WEAKNESS on only one side?</item>
+    </string-array>
+
+    <string-array name="attack_types">
+        <item>GTC</item>
+        <item>Abs</item>
+        <item>Focal</item>
+        <item>In Sleep</item>
+        <item>Awake</item>
+        <item>Tongue Bite</item>
+        <item>Incontinence</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="@dimen/_16sdp">
+
+    <EditText
+        android:id="@+id/etDoctorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/lbl_medication_name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint_text_color"
+        android:textSize="@dimen/_14ssp" />
+
+    <EditText
+        android:id="@+id/etVisitDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:clickable="true"
+        android:inputType="none"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint_text_color"
+        android:hint="@string/lbl_medication_start_date"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textSize="@dimen/_14ssp" />
+
+    <EditText
+        android:id="@+id/etVisitTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:clickable="true"
+        android:inputType="none"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint_text_color"
+        android:hint="@string/lbl_medication_start_time"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textSize="@dimen/_14ssp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <EditText
+            android:id="@+id/etDuration"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hint_text_color"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbl_title_duration"
+            android:textSize="@dimen/_14ssp" />
+
+        <EditText
+            android:id="@+id/etDurationUnit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hint_text_color"
+            android:clickable="true"
+            android:inputType="none"
+            android:hint="@string/select_unit"
+            android:textSize="@dimen/_14ssp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etFrequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:clickable="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint_text_color"
+        android:inputType="none"
+        android:hint="@string/select_frequency"
+        android:textSize="@dimen/_14ssp" />
+
+    <EditText
+        android:id="@+id/etDose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint_text_color"
+        android:hint="@string/lbl_dose"
+        android:textSize="@dimen/_14ssp" />
+
+</LinearLayout>

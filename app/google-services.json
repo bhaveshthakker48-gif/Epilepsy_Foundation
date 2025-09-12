@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "305216164372",
+    "project_id": "epilepsy-foundation-8b95c",
+    "storage_bucket": "epilepsy-foundation-8b95c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305216164372:android:db3777957a699cffbf4d01",
+        "android_client_info": {
+          "package_name": "com.india.epilepsyfoundation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT3O16iUJtFkos_mes8ksECmt-HUYd0M4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

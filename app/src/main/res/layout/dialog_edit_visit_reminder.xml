@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/_16sdp">
+
+    <EditText
+        android:id="@+id/etDoctorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint_text_color"
+        android:hint="@string/doctor_name" />
+
+    <EditText
+        android:id="@+id/etVisitDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:clickable="true"
+        android:inputType="none"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint_text_color"
+        android:hint="@string/lbl_event_date"
+        android:layout_marginTop="@dimen/_8sdp" />
+
+    <EditText
+        android:id="@+id/etVisitTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:clickable="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint_text_color"
+        android:inputType="none"
+        android:hint="@string/lbl_event_time"
+        android:layout_marginTop="@dimen/_8sdp" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#643293</color>
+    <color name="colorPrimaryDark">#8A66AE</color>
+    <color name="light_blueNew">#8A66AE</color>
+    <color name="dark_gray">#666666</color>
+
+    <!-- Hint color for light mode -->
+    <color name="hint_text_color">#8A000000</color> <!-- 54% black -->
+</resources>

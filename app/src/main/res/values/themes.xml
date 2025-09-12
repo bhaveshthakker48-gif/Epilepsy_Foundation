@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EpilepsyFoundation" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/light_blueNew</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+
+    </style>
+
+    <style name="Theme.EpilepsyFoundation" parent="Base.Theme.EpilepsyFoundation" />
+</resources>

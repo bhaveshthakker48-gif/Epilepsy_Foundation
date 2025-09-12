@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_bg"
+    tools:context=".activity.assessment.AssessmentActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.WHOQuesAnsActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_10sdp">
+
+            <TextView
+                android:justificationMode="inter_word"
+                style="@style/whodas_Instruction_questiontext"
+                android:text="@string/h1" />
+
+            <EditText
+                android:id="@+id/edth1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/hint_text_color"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:hint="@string/h1_optn"
+                android:inputType="number" />
+
+            <TextView
+                android:justificationMode="inter_word"
+                style="@style/whodas_Instruction_questiontext"
+                android:text="@string/h2"
+                android:layout_marginTop="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/edth2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/hint_text_color"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:hint="@string/h1_optn"
+                android:inputType="number" />
+
+            <TextView
+                android:justificationMode="inter_word"
+                style="@style/whodas_Instruction_questiontext"
+                android:text="@string/h3"
+                android:layout_marginTop="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/edth3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/hint_text_color"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:hint="@string/h1_optn"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/btnSubmitForm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_submit"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_button"
+                android:layout_margin="@dimen/_10sdp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
