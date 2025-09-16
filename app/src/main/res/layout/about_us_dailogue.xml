@@ -37,4 +37,22 @@
         android:gravity="center_horizontal"
         android:textColor="@color/black"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The app is designed, developed and maintained by"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_9sdp"
+        android:textStyle="bold"
+        android:paddingEnd="8dp" />
+
+    <VideoView
+        android:id="@+id/logo_video"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp" />
+
 </LinearLayout>

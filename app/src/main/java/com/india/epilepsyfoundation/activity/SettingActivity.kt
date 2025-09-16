@@ -2,8 +2,10 @@ package com.india.epilepsyfoundation.activity
 
 import android.app.AlertDialog
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.widget.VideoView
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowCompat
@@ -64,12 +66,22 @@ class SettingActivity : BaseActivity() {
     private fun showAboutUsDialog() {
         val view = LayoutInflater.from(this).inflate(R.layout.about_us_dailogue, null)
 
+        // Setup VideoView
+        val logoVideo = view.findViewById<VideoView>(R.id.logo_video)
+        val videoUri = Uri.parse("android.resource://${packageName}/${R.raw.logo_animation}")
+        logoVideo.setVideoURI(videoUri)
+        logoVideo.setOnPreparedListener { mp ->
+            mp.isLooping = true   // loop forever
+            logoVideo.start()
+        }
+
         val dialog = AlertDialog.Builder(this)
             .setView(view)
             .create()
 
         dialog.show()
     }
+
 
 
     private fun showLanguageDialog() {

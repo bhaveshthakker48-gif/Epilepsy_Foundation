@@ -170,20 +170,29 @@ class DashboardActivity : BaseActivity() {
 
 
     private fun showWhatsNewDialog() {
-        AlertDialog.Builder(this)
-            .setTitle("What's New")
-            .setMessage(
-                """
-            ✨ Latest Updates:
-            
-            • Faster performance
-            • Bug fixes
-            • New dashboard UI
-            
-            """.trimIndent()
-            )
-            .setPositiveButton("Got it", null)
-            .show()
+        try {
+            // Get version name from PackageManager
+            val versionName = packageManager
+                .getPackageInfo(packageName, 0).versionName
+
+            // Build and show dialog
+            AlertDialog.Builder(this)
+                .setTitle("What's New in version $versionName")
+                .setMessage(
+                    """
+                ✨ Latest Updates:
+                
+                • Faster performance
+                • Bug fixes
+                • New dashboard UI
+                
+                """.trimIndent()
+                )
+                .setPositiveButton("Got it", null)
+                .show()
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
     }
 
 
