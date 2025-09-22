@@ -7,7 +7,11 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.view.LayoutInflater
+import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
@@ -161,7 +165,7 @@ class DashboardActivity : BaseActivity() {
         val lastVersion: String? = SharedPreference.get(PrefKeys.LAST_SEEN_VERSION)
         if (lastVersion == null || currentVersion != lastVersion) {
             // Show What's New dialog
-            showWhatsNewDialog()
+            showWhatsNewBottomSheet()
 
             // Save current version
             SharedPreference.set(PrefKeys.LAST_SEEN_VERSION, currentVersion)
@@ -169,27 +173,33 @@ class DashboardActivity : BaseActivity() {
     }
 
 
-    private fun showWhatsNewDialog() {
+    private fun showWhatsNewBottomSheet() {
         try {
-            // Get version name from PackageManager
             val versionName = packageManager
                 .getPackageInfo(packageName, 0).versionName
 
-            // Build and show dialog
-            AlertDialog.Builder(this)
-                .setTitle("What's New in version $versionName")
-                .setMessage(
-                    """
-                ✨ Latest Updates:
-                
-                • Faster performance
-                • Bug fixes
-                • New dashboard UI
-                
-                """.trimIndent()
-                )
-                .setPositiveButton("Got it", null)
-                .show()
+            val bottomSheetDialog = com.google.android.material.bottomsheet.BottomSheetDialog(this, R.style.CustomBottomSheetDialog)
+            val view = layoutInflater.inflate(R.layout.layout_whats_new_bottomsheet, null)
+            bottomSheetDialog.setContentView(view)
+
+            // Set title + message
+            view.findViewById<TextView>(R.id.titleText).text = "What's New in version $versionName"
+            view.findViewById<TextView>(R.id.messageText).text = """
+            ✨ Latest Updates:
+
+            • Faster performance
+            • Bug fixes
+            • New dashboard UI
+        """.trimIndent()
+
+            // Button click
+            view.findViewById<Button>(R.id.btnGotIt).setOnClickListener {
+                bottomSheetDialog.dismiss()
+            }
+
+            Handler(Looper.getMainLooper()).postDelayed({
+                bottomSheetDialog.show()
+            }, 600) // 600ms delay
         } catch (e: Exception) {
             e.printStackTrace()
         }

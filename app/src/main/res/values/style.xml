@@ -96,4 +96,14 @@
         <item name="android:textColor">#000000</item>
     </style>
 
+
+    <style name="CustomBottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowAnimationStyle">@style/BottomSheetAnim</item>
+    </style>
+
+    <style name="BottomSheetAnim">
+        <item name="android:windowEnterAnimation">@anim/slide_up_slow</item>
+        <item name="android:windowExitAnimation">@anim/slide_down_slow</item>
+    </style>
+
 </resources>
